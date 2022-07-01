@@ -111,12 +111,32 @@ body {
   text-decoration: none;
   font-size: 12px;
   text-transform: uppercase;
+  display: flex;
 }
 .link {
   display: inline;
-  padding: 2.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-bottom: 1rem;
+  margin: 5px;
   font-weight: 700;
   color: rgba(255, 255, 255, 0.862);
+}
+
+.navlink {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.navlink:hover::after {
+  content: " ";
+  border-radius: 50%;
+  position: fixed;
+  top: 750px;
+  border: 50px solid rgb(255, 255, 255);
+  transition: all 1s ease;
 }
 
 /* .main_content {

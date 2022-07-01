@@ -133,8 +133,8 @@ body {
 .navlink:hover::after {
   content: " ";
   border-radius: 50%;
-  position: fixed;
-  top: 750px;
+  position: absolute;
+  top: 745px;
   border: 50px solid rgb(255, 255, 255);
   transition: all 1s ease;
 }

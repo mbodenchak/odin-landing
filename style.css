@@ -359,7 +359,9 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  resize: none;
 }
+
 .contact_form label {
   color: #6d6d6d;
   margin: 0 0 36px;
@@ -369,6 +371,7 @@ textarea {
 
 .contact_form-message {
   padding: 30px 0px;
+  /* max-width: 300px; */
 }
 
 .footer {

@@ -309,8 +309,12 @@ section {
 .testimonials {
   width: 100%;
   /* background-color: #fdfdfd; */
-  background-image: url("https://images.unsplash.com/photo-1581610489881-f316ffcf0424?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1325&q=800");
+  /* background-image: url("https://images.unsplash.com/photo-1581610489881-f316ffcf0424?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1325&q=800"); */
+  background-image: url("https://images.unsplash.com/photo-1566350794887-fa9cce5f5fe5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2969&q=80");
   background-size: 100%;
+  /* background-image: url("https://images.unsplash.com/photo-1619199676850-6fd7cc5f87fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80"); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   filter: saturate(1.2);
   min-height: 700px;
   border-bottom: 1px solid rgba(43, 47, 57, 0.1);

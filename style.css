@@ -51,12 +51,13 @@ body {
   font-weight: 600;
   text-decoration: none;
   padding: 0.2em 1em;
-  transition: all 0.3s ease;
 }
 
 .login-btn:hover {
   background-color: rgb(255, 255, 255);
   color: #0e0c83;
+  transition: all 0.3s ease;
+  transform: scale(1.03);
 }
 
 .focus_content {
@@ -91,13 +92,14 @@ body {
   padding: 1.2em 2em;
   color: #387cdf;
   font-weight: 600;
-  transition: all 0.3s ease;
 }
 
 .focus_content-btn:hover {
+  transition: all 0.3s ease;
   background-color: #387cdf;
   color: #fff;
   cursor: pointer;
+  transform: scale(1.03);
 }
 /*////////////////////////////////////////////////////*/
 /*Nav Bar */
@@ -165,6 +167,7 @@ section {
   background-color: #1411c7;
   color: #fff;
   transition: all 0.3s ease;
+  transform: scale(1.02);
 }
 .body-btn:active {
   background-color: #ddd;
